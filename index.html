@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="banda.css">
+    <link rel="stylesheet" href="fita.css">
+    <style>
+        p {
+            color: green;
+        }
+
+        #primeira-div {
+            color: green;
+            text-decoration: underline;
+        }
+
+        #segunda-div {
+            color: blue;
+            text-decoration: line-through;
+        }
+
+        .outras-divs {
+            color: purple;
+            background-color: yellow;
+            margin: .5rem;
+            padding: 1rem;
+        }
+
+        .bloco {
+            color: yellow;
+            background-color: green;
+            margin: .5rem;
+            padding: 1rem;
+            width: 4rem;
+            height: 4rem;
+            border-radius: .5rem;
+        }
+
+        .barra {
+            color: white;
+            background-color: blue;
+            height: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .faixa {
+            color: white;
+            background-color: red;
+            height: 3rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #nona-div {
+            background-color: skyblue;
+            color: red;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .nona {
+            background-color: red;
+            color: skyblue;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .container {
+            border: 1px solid gray;
+            height: 20rem;
+            margin: 1rem;
+            box-shadow: .5rem .5rem .5rem .5rem gray;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: orangered;
+            color: yellow;
+            margin: .5rem;
+            padding: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Isto é um comentário. -->
+    <p style="color: red;">
+        Olá, mundo!
+    </p>
+
+    <div id="primeira-div">
+        Esta é a primeira DIV.
+    </div>
+
+    <div id="segunda-div">
+        Esta é a segunda DIV.
+    </div>
+
+    <div class="outras-divs">
+        Esta é a terceira DIV.
+    </div>
+
+    <div class="outras-divs">
+        Esta é a quarta DIV.
+    </div>
+
+    <div class="bloco">Bloco 01</div>
+    <div class="bloco">Bloco 02</div>
+    <div class="bloco">Bloco 03</div>
+
+    <div class="faixa barra">Esta é a quinta DIV.</div>
+    <div class="barra faixa">Esta é a sexta DIV.</div>
+
+    <div class="fita banda">Esta é a sétima DIV.</div>
+    <div class="banda fita">Esta é a oitava DIV.</div>
+
+    <div id="nona-div" class="nona">
+        Esta é a nona DIV.
+    </div>
+
+
+    <div class="container">
+        <div class="item">Item 01</div>
+        <div class="item">Item 02</div>
+        <div class="item">Item 03</div>
+        <div class="item">Item 04</div>
+        <div class="item">Item 05</div>
+        <div class="item">Item 06</div>
+        <div class="item">Item 07</div>
+        <div class="item">Item 08</div>
+        <div class="item">Item 09</div>
+        <div class="item">Item 10</div>
+        <div class="item">Item 11</div>
+        <div class="item">Item 12</div>
+        <div class="item">Item 13</div>
+    </div>
+</body>
+
+</html>
